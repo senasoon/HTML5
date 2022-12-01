@@ -9,22 +9,49 @@ body {
     "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 
+/* 레이아웃 */
+.header,
+.visual,
+.main,
+.slogan,
+.footer-inner {
+  width: 940px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+/* 헤더 */
 .header {
   background-color: pink;
+  padding: 0 30x;
+  height: 15vh;
 }
 
+/* 비주얼 */
 .visual {
   background-color: orange;
+  height: 10vh;
 }
 
+/* 메인 */
 .main {
   background-color: lightgreen;
+  height: 50vh;
 }
 
+/* 슬로건 */
 .slogan {
   background-color: skyblue;
+  height: 10vh;
 }
 
+/* 푸터 */
 .footer {
   background-color: gray;
+  height: 15vh;
+}
+
+.footer-inner {
+  background-color: lightgray;
+  height: 15vh;
 }

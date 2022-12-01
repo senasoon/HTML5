@@ -1,6 +1,14 @@
 @import url(./normalize.css);
 @import url(./reset.css);
 
+/* 기본 스타일 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* 본문 스타일 */
 body {
   background-color: #ffc;
   font-family: "Pretendard Variable", Pretendard, -apple-system,
@@ -16,7 +24,6 @@ body {
 .slogan,
 .footer-inner {
   width: 940px;
-  box-sizing: border-box;
   margin: 0 auto;
 }
 
@@ -37,6 +44,27 @@ body {
 .main {
   background-color: lightgreen;
   height: 50vh;
+  display: flow-root;
+}
+
+.group {
+  margin: 0 15px;
+  float: left;
+}
+
+.group1 {
+  background-color: violet;
+  width: 250px;
+}
+
+.group2 {
+  background-color: salmon;
+  width: 380px;
+}
+
+.group3 {
+  background-color: gold;
+  width: 190px;
 }
 
 /* 슬로건 */

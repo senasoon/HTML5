@@ -10,7 +10,7 @@
 
 /* 본문 스타일 */
 body {
-  background-color: #ffc;
+  background-color: #ccc;
   font-family: "Pretendard Variable", Pretendard, -apple-system,
     BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
     "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
@@ -29,10 +29,21 @@ body {
 
 /* 헤더 */
 .header {
-  background-color: pink;
+  background-color: #fff;
   padding: 0 30x;
   height: 15vh;
+  border-radius: 0 0 15px 15px;
+  position: relative;
 }
+
+/* 로고 */
+.logo {
+  position: absolute;
+  top: 45px;
+  left: 60px;
+}
+
+/* 텍스트 링크 모음 */
 
 /* 비주얼 */
 .visual {

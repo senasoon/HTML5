@@ -44,12 +44,8 @@ body {
 .main {
   background-color: lightgreen;
   height: 50vh;
-  display: flow-root;
-}
-
-.group {
-  margin: 0 15px;
-  float: left;
+  display: flex;
+  flex-direction: row;
 }
 
 .group1 {

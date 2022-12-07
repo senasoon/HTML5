@@ -130,6 +130,16 @@ body {
   text-shadow: 1px 1px 0 #000, -1px -1px 0 #000;
 }
 
+.is-active .menu-button::after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid #212121;
+}
+
+.is-active .menu-button {
+  color: #ff0;
+}
+
 .sub-menu {
   background-color: pink;
   position: absolute;

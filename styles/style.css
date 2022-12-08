@@ -236,9 +236,10 @@ body {
   font-family: Georgia, "Times New Roman", Times, serif;
   background-color: pink;
   animation-name: moveEffect;
-  animation-duration: 2000ms;
+  animation-duration: 3000ms;
+  animation-timing-function: ease-in-out;
   animation-fill-mode: forwards;
-  display: inline-block;
+  position: absolute;
 }
 
 /* 메인 */

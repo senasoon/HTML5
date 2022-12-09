@@ -3,7 +3,8 @@
 @import url(./reset.css);
 
 /* 숨김 콘텐츠 */
-.a11y-hidden {
+.a11y-hidden,
+legend {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -284,10 +285,11 @@ body {
 
 /* 메인 */
 .main {
-  background: lightgreen;
-  height: 50vh;
+  background: #fff;
+  min-height: 450px;
   display: flow-root;
-  padding: 0 15px;
+  padding: 30px 15px;
+  border-radius: 15px 15px 0 0;
 }
 
 .group {
@@ -296,7 +298,6 @@ body {
 }
 
 .group1 {
-  background-color: violet;
   width: 250px;
 }
 .group2 {
@@ -306,6 +307,88 @@ body {
 .group3 {
   background-color: gold;
   width: 190px;
+}
+
+/* 로그인 */
+
+.login {
+  background: orange radial-gradient(circle at right top, orange, orangered);
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 5px 5px 0 0 #ccc;
+}
+
+.login-title {
+  color: #ff0;
+  font-weight: 700;
+  font-size: 15px;
+  text-indent: 10px;
+}
+
+.login-form {
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+  padding: 10px 10px 0 10px;
+  margin-top: 10px;
+}
+
+.login-form fieldset {
+  position: relative;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.user-email,
+.user-pw {
+  margin-bottom: 5px;
+}
+
+.login-form label {
+  display: inline-block;
+  width: 60px;
+}
+
+.login-form input {
+  width: 90px;
+  height: 24px;
+  border: 1px solid #aaa;
+  padding: 1px 1px 1px 5px;
+  border-radius: 3px;
+}
+
+.login-button {
+  position: absolute;
+  width: 50px;
+  height: 53px;
+  top: 0;
+  right: 0;
+  background-color: orangered;
+  color: #fff;
+  border: 0;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.sign {
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+  padding: 4px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign li {
+  font-size: 12px;
+}
+
+.sign li a {
+  display: block;
+  padding: 6px 0;
+  letter-spacing: -1px;
+}
+
+.sign li a::before {
+  color: orange;
 }
 
 /* 슬로건 */

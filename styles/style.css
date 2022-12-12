@@ -455,6 +455,7 @@ body {
 .term-list-subject {
   width: 145px;
   float: right;
+  line-height: 1.5;
 }
 
 .cross .term-list-subject,

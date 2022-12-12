@@ -301,7 +301,6 @@ body {
   width: 250px;
 }
 .group2 {
-  background-color: salmon;
   width: 380px;
 }
 .group3 {
@@ -465,6 +464,51 @@ body {
 
 .cross .term-list-thumbnail {
   float: right;
+}
+
+/* 검색 폼 */
+.search-form {
+  background: #ccc linear-gradient(to bottom, #ccc, #eee);
+  padding: 15px 25px 10px;
+  border-radius: 15px 15px 0 0;
+  border: 1px solid #aaa;
+}
+
+.search-form-inner {
+  display: flex;
+}
+
+.form-group {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+}
+
+.form-group-label {
+  white-space: nowrap;
+  margin-right: 10px;
+}
+
+.form-group-input {
+  border: 1px solid #aaa;
+  border-radius: 3px;
+  width: 190px;
+  height: 24px;
+  padding: 1px 1px 1px 5px;
+  flex-grow: 1;
+  /* min-width: 0; */
+}
+
+.search-button {
+  white-space: nowrap;
+  background-color: #000;
+  color: #fff;
+  height: 24px;
+  border: 0;
+  border-radius: 3px;
+  padding: 0 10px;
+  font-size: 1.2rem;
 }
 
 /* 슬로건 */
